@@ -141,7 +141,7 @@
     <!-- header close -->
 
     <!-- content begin -->
-    <div id="content" class="no-bottom no-top" style="background-size: cover">
+    <div id="content carouselExampleControls" class="no-bottom no-top carousel slide" style="background-size: cover" data-ride="carousel">
       <!-- revolution slider begin -->
       <div class="forcefullwidth_wrapper_tp_banner" style="
             position: relative;
@@ -151,7 +151,7 @@
             margin-bottom: 0px;
             background-size: cover;
           ">
-        <section id="section-hero" class="fullwidthbanner-container" aria-label="section-slider" data-bgcolor="#101010"
+        <section id="section-hero" class="fullwidthbanner-container carousel-inner" aria-label="section-slider" data-bgcolor="#101010"
           style="
             background-color: rgb(16, 16, 16);
             margin-top: 0px;
@@ -165,7 +165,7 @@
 
 
 
-          <div class="tp-bgimg " style="
+          <div class="tp-bgimg carousel-item active" style="
           background-color: rgba(0, 0, 0, 0);
           background-repeat: no-repeat;
           background-image: url('images/slider/wide2.png');
@@ -175,7 +175,7 @@
           height: 40vmax;
           opacity: 1;
           visibility: inherit;
-          z-index: 20;
+          z-index: 0;
           position:relative;
                     " src="images/slider/wide2.png">
 
@@ -218,9 +218,18 @@
               </div>
             </div>
           </div>
-
+          <div class="tp-bgimg carousel-item " >
+                <img  src="images/slider/iinovate a thon final cover (2).png" class="d-block" width="100vw">
 
         </section>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
         <div class="tp-fullwidth-forcer d-none d-lg-block" style="width: 100%; height: 40vmax; background-size: cover">
         </div>
         <div class="tp-fullwidth-forcer d-block d-lg-none" style="width: 100%; height: 80vmax; background-size: cover">
@@ -254,6 +263,7 @@
           </div>
         </div>
       </div>
+      
 
       <!-- particles.js container 
       <div id="particles-js"></div>  stats - count particles -->
